@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#61cec5</color>
+    <color name="colorPrimaryDark">#61CEAB</color>
+    <color name="colorAccent">#03D81B60</color>
+    <color name="colorGray">#08000000</color>
+
+
+
+
+    <color name="colorPrimaryDrkMode">#D0616161</color>
+    <color name="colorPrimaryDarkDrkMode">#212121</color>
+    <color name="colorAccentDrkMode">#757575</color>
+
+
+
+</resources>

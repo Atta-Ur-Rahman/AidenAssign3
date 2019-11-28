@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.techease.asign3.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_add_down"
+        android:name="com.techease.asign3.ui.smith.AidDownFragment"
+        android:label="@string/smith"
+        tools:layout="@layout/fragment_aid_down" />
+
+    <fragment
+        android:id="@+id/nav_location"
+        android:name="com.techease.asign3.ui.CurrentLocationFragment"
+        android:label="@string/location"
+        tools:layout="@layout/fragment_current_location" />
+
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="com.techease.asign3.ui.settings.BolSetFragment"
+        android:label="@string/settings"
+        tools:layout="@layout/fragment_bol_set" />
+
+
+    <fragment
+        android:id="@+id/nav_weather"
+        android:name="com.techease.asign3.ui.WeatherFragment"
+        android:label="@string/weather"
+        tools:layout="@layout/fragment_weather" />
+</navigation>
